@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+
+        <div th:fragment="footer" class="footer">
+            <div th:fragment="siteLink" class="siteLink">
+            </div>
+            <div th:fragment="copyright" class="copyright">2018 All rights reserved by Koo</div>
+        </div>
+
+        <div th:fragment="simpleFooter" class="footer">
+            <div th:insert="~{:: copyright}"></div>
+        </div>
+
+    </body>
+</html>

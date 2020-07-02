@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:include="templates/main.html :: head(~{::title}, ~{::link}, ~{::style}, ~{::script})">
+    <title>UI: Templates</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/wcom/css/theme/cleanTable/cleanTable.css}">
+    <script type="text/javascript" th:src="@{/wcom/scripts/mobileAPI.js}"></script>
+</head>
+<body th:include="~{templates/main.html :: body(~{::#bodyContents})}">
+
+<!-- -------------------- [CONTENTS] -------------------- -->
+<div id="bodyContents">
+
+    <h1>Hello, iOS</h1>
+
+
+    <table class="cleanTable wfull">
+        <thead>
+        <tr>
+            <th th:class="w5p">그룹</th>
+            <th th:class="w5p">서비스</th>
+            <th th:class="w20p">제목</th>
+            <th>링크</th>
+            <th th:class="w10p">비고</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>공통</td>
+            <td>ping</td>
+            <td>핑 테스트</td>
+            <td>
+                <a href="#" th:onclick="iosAPI('', 'ping', '')">Ping</a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>etc</td>
+            <td>ping</td>
+            <td>핑 테스트</td>
+            <td>
+                <a href="#" th:onclick="iosAPI('etc', 'ping', 'Hello, ping test!!!')">Ping</a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>공통</td>
+            <td>Login</td>
+            <td></td>
+            <td>
+                <a href="#" th:onclick="iosAPI('', 'loginRequest', '')">Login</a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>공통</td>
+            <td>Logout</td>
+            <td></td>
+            <td>
+                <a href="#" th:onclick="iosAPI('', 'logoutRequest', '')">Logout</a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>공통</td>
+            <td>Main</td>
+            <td></td>
+            <td>
+                <a href="#" th:onclick="iosAPI('', 'goMain', '')">Main</a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>공통</td>
+            <td>Load URL</td>
+            <td></td>
+            <td>
+                <a href="#" th:onclick="iosAPI('', 'loadURL', 'https://google.co.kr')">Google</a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>공통</td>
+            <td>Photo Upload</td>
+            <td></td>
+            <td>
+                <a href="#" th:onclick="iosAPI('', 'imageUpload', 'file')">사진 업로드</a>
+            </td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+</div>
+<!-- -------------------- [CONTENTS] -------------------- -->
+
+</body>
+</html>
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="848F3FDB-9017-4614-B203-0F43C1C2F6A0">
+    <Notes>
+        <Note ID="0" FontSize="20.0" Position="34.265625,33.433594" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Jagged">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>Koo Farm</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="2" FontSize="13.0" Position="369.578125,311.679688" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>회원관리</String>
+        </Note>
+        <Note ID="3" FontSize="15.0" Position="370.0,247.546875" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border>0.791142 0.791142 0.791142</Border>
+            </Appearance>
+            <String>Core</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="4" FontSize="13.0" Position="369.9375,351.808594" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>회원관리</String>
+        </Note>
+        <Note ID="6" FontSize="13.0" Position="822.703125,312.433594" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>지식 등록, 검색, 분류</String>
+        </Note>
+        <Note ID="7" FontSize="15.0" Position="823.125,248.300781" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border>0.791142 0.791142 0.791142</Border>
+            </Appearance>
+            <String>지식 관리 시스템</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,2</FormatRange>
+                <FormatRange Bold="Yes">2,1</FormatRange>
+                <FormatRange Bold="Yes">3,2</FormatRange>
+                <FormatRange Bold="Yes">5,1</FormatRange>
+                <FormatRange Bold="Yes">6,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="8" FontSize="13.0" Position="823.0625,352.5625" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>다양한 포맷 변환</String>
+        </Note>
+        <Note ID="10" FontSize="13.0" Position="1261.289062,306.410156" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>회원관리</String>
+        </Note>
+        <Note ID="11" FontSize="15.0" Position="1261.710938,242.277344" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border>0.791142 0.791142 0.791142</Border>
+            </Appearance>
+            <String>생산 관리 시스템</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="12" FontSize="13.0" Position="1261.648438,346.539062" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>회원관리</String>
+        </Note>
+        <Note ID="14" FontSize="13.0" Position="1264.953125,791.914062" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>회원관리</String>
+        </Note>
+        <Note ID="15" FontSize="15.0" Position="1265.375,727.78125" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border>0.791142 0.791142 0.791142</Border>
+            </Appearance>
+            <String>쇼핑몰</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="16" FontSize="13.0" Position="1269.753906,1065.65625" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>재고관리</String>
+        </Note>
+        <Note ID="18" FontSize="13.0" Position="368.164062,783.292969" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>블로그</String>
+        </Note>
+        <Note ID="19" FontSize="15.0" Position="368.585938,719.160156" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border>0.791142 0.791142 0.791142</Border>
+            </Appearance>
+            <String>커뮤니티</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="20" FontSize="13.0" Position="369.050781,874.113281" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>포럼</String>
+        </Note>
+        <Note ID="21" FontSize="13.0" Position="366.617188,917.160156" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>위키</String>
+        </Note>
+        <Note ID="22" FontSize="13.0" Position="369.304688,830.0625" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>카페</String>
+        </Note>
+        <Note ID="23" FontSize="13.0" Position="822.964844,396.875" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>버전 관리</String>
+        </Note>
+        <Note ID="24" FontSize="13.0" Position="821.925781,442.59375" Width="200.0">
+            <Appearance>
+                <Alignment>Center</Alignment>
+                <Border Weight="1" Style="Square">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>지식 비교/대조</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="1" Sticky="Yes" Position="320.335938,231.488281" Width="300.0" Height="405.511719">
+            <Appearance>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="5" Sticky="Yes" Position="773.460938,232.242188" Width="300.0" Height="405.511719">
+            <Appearance>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="9" Sticky="Yes" Position="1212.046875,226.21875" Width="300.0" Height="405.511719">
+            <Appearance>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="13" Sticky="Yes" Position="1215.710938,711.722656" Width="300.0" Height="405.511719">
+            <Appearance>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="17" Sticky="Yes" Position="318.921875,703.101562" Width="300.0" Height="405.511719">
+            <Appearance>
+                <Border Weight="1" Style="Square"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="5B259816-D4CE-4C60-AE8F-C53C4CE07C85" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="C8D1CC58-40FD-408F-B325-BBA37E5F3691" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="1DF2C11C-6790-4870-9AFB-C19732764A25" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="02B6D9B6-F390-4344-BC0F-C6628B8D826F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="824BECBA-D45D-444F-A338-0119BD6A2833" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="C1F50D50-BB11-40DA-AEB8-1F98D84E0DE3" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="F53EC8EA-0104-4DB4-ADF7-4069AE2F24EF" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

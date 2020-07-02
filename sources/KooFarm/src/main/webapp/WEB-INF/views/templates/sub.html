@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head(title, links, style, scripts)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title th:replace="${title}">Title</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/wcom/css/default.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/wcom/css/common.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/wcom/css/template/sub.css}">
+    <script type="text/javascript" th:src="@{/wcom/scripts/default.js}"></script>
+
+    <th:block th:if="${links}">
+        <th:block th:replace="${links}" />
+    </th:block>
+
+    <th:block th:if="${style}">
+        <th:block th:replace="${style}" />
+    </th:block>
+
+    <th:block th:if="${scripts}">
+        <th:block th:replace="${scripts}" />
+    </th:block>
+</head>
+<body th:fragment="body(bodyContents, bodyLeft)">
+
+    <!-- -------------------- [TEMPLATE_PAGE_WRAPPER] -------------------- -->
+    <div id="iFarm.TEMPLATE_PAGE_WRAPPER">
+
+        <!-- -------------------- [TEMPLATE_PAGE_HEADER] -------------------- -->
+        <div id="iFarm.TEMPLATE_PAGE_HEADER">
+            <div th:insert="~{templates/decorators/header.html :: header}"></div>
+        </div>
+        <!-- -------------------- [TEMPLATE_PAGE_HEADER] -------------------- -->
+
+
+        <!-- -------------------- [TEMPLATE_PAGE_BODY] -------------------- -->
+        <div id="iFarm.TEMPLATE_PAGE_BODY">
+
+            <!-- -------------------- [TEMPLATE_BODY_LEFT] -------------------- -->
+            <div id="iFarm.TEMPLATE_BODY_LEFT" class="bodyLeft">
+                <th:block th:if="${bodyLeft}">
+                    <th:block th:include="${bodyLeft}" />
+                </th:block>
+            </div>
+            <!-- -------------------- [TEMPLATE_BODY_LEFT] -------------------- -->
+
+            <!-- -------------------- [TEMPLATE_BODY_CONTENT] -------------------- -->
+            <div id="iFarm.TEMPLATE_BODY_CONTENT" class="bodyContents">
+                <th:block th:if="${bodyContents}">
+                    <th:block th:include="${bodyContents}" />
+                </th:block>
+            </div>
+            <!-- -------------------- [TEMPLATE_BODY_CONTENT] -------------------- -->
+
+            <!-- -------------------- [TEMPLATE_BODY_RIGHT] -------------------- -->
+            <!--
+            <div id="iFarm.TEMPLATE_BODY_RIGHT">
+            </div>
+            -->
+            <!-- -------------------- [TEMPLATE_BODY_RIGHT] -------------------- -->
+
+        </div>
+        <!-- -------------------- [TEMPLATE_PAGE_BODY] -------------------- -->
+
+
+        <!-- -------------------- [TEMPLATE_PAGE_FOOTER] -------------------- -->
+        <div id="iFarm.TEMPLATE_PAGE_FOOTER">
+            <div th:insert="~{templates/decorators/footer.html :: footer}"></div>
+        </div>
+        <!-- -------------------- [TEMPLATE_PAGE_FOOTER] -------------------- -->
+
+    </div>
+    <!-- -------------------- [TEMPLATE_PAGE_WRAPPER] -------------------- -->
+
+</body>
+</html>

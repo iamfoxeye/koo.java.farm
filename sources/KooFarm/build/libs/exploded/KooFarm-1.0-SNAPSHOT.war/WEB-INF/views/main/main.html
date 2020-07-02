@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:include="templates/main.html :: head(~{::title}, ~{::link}, ~{::style}, ~{::script})">
+    <title>Welcome to iFarm!</title>
+</head>
+<body th:include="~{templates/main.html :: body(~{::#bodyContents})}">
+
+    <!-- -------------------- [CONTENTS] -------------------- -->
+    <div id="bodyContents">
+
+        <h1>Hello Spring!</h1>
+
+        <p>Main</p>
+        <ul>
+            <li><a href="main/main.html" th:href="@{/main}">Main HTML</a></li>
+            <li><a href="main/main.jsp" th:href="@{/mainJsp}">Main JSP</a></li>
+        </ul>
+
+        <p>Member</p>
+        <ul>
+            <li><a href="member/login.html" th:href="@{/member/login}">Login</a></li>
+            <li><a href="member/logout.html" th:href="@{/member/logout}">Logout</a></li>
+        </ul>
+
+        <p>System</p>
+        <ul>
+            <li><a href="system/diagnosis/myBatis/index.html" th:href="@{/system/diagnosis/myBatis}">MyBatis</a></li>
+            <li><a href="system/diagnosis/hibernate/index.html" th:href="@{/system/diagnosis/hibernate}">Hibernate</a></li>
+        </ul>
+
+        <p>Board</p>
+        <ul>
+            <li><a href="board/imageUpload" th:href="@{/board/imageUpload}">Image Upload(Web)</a></li>
+            <li><a href="board/iosImageUpload" th:href="@{/board/iosImageUpload}">Image Upload(iOS)</a></li>
+        </ul>
+
+        <p>Mobile OS Test</p>
+        <ul>
+            <li><a href="system/mobile/ios" th:href="@{/system/mobile/ios}">iOS</a></li>
+        </ul>
+
+    </div>
+    <!-- -------------------- [CONTENTS] -------------------- -->
+
+</body>
+</html>

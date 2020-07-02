@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+
+        <div th:fragment="header" class="header">
+            <div th:fragment="toolMenu" class="toolMenu">
+                <ul>
+                    <li><a href="registration.html" th:href="@{/member/registration}">Registration</a></li>
+                    <li><a href="login.html" th:href="@{/member/login}">Login</a></li>
+                    <li><a href="logout.html" th:href="@{/member/logout}">Logout</a></li>
+                </ul>
+            </div>
+
+            <div th:fragment="topMenu" class="topMenu">
+                <ul>
+                    <li><a href="../main.html" th:href="@{/}">Home</a></li>
+                    <li><a href="../main.html" th:href="@{/}">제품</a></li>
+                    <li><a href="../main.html" th:href="@{/}">서비스</a></li>
+                    <li><a href="../main.html" th:href="@{/}">Home</a></li>
+                    <li><a href="../main.html" th:href="@{/}">Home</a></li>
+                    <li><a href="../main.html" th:href="@{/}">Home</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div th:fragment="simpleHeader" class="header">
+            <div th:insert="~{:: topMenu}"></div>
+        </div>
+
+    </body>
+</html>

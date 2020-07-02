@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:include="templates/main.html :: head(~{::title}, ~{::link}, ~{::style}, ~{::script})">
+    <title>Welcome to iFarm!</title>
+</head>
+<body th:include="~{templates/main.html :: body(~{::#bodyContents})}">
+
+<!-- -------------------- [CONTENTS] -------------------- -->
+<div id="bodyContents">
+
+    <h1>Error!</h1>
+
+    <p>Menu</p>
+    <ul>
+        <li><a href="/" th:href="@{/}">Go Back</a></li>
+    </ul>
+
+</div>
+<!-- -------------------- [CONTENTS] -------------------- -->
+
+</body>
+</html>

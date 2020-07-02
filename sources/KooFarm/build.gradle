@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.kooniverse.farm'
+version '1.0-SNAPSHOT'
+
+ext {
+    oasisRepository = "/Volumes/Paradise/oasis/repos/"
+    oasisFrameworkVersion = "1.0.RELEASE"
+
+    servletVersion = "3.1.0"
+    jstlVersion = "1.2"
+
+    springFrameworkVersion = "5.2.7.RELEASE"
+    thymeleafVersion = "3.0.11.RELEASE"
+
+    hibernateVersion = "5.4.18.Final"
+    myBatisVersion = "3.5.5"
+    myBatisSpringVersion = "2.0.5"
+
+    commonsDbcp2Version = "2.7.0"
+    commonsFileUpload = "1.4"
+
+    jacksonVersion = "2.11.1"
+
+    junitVersion = "4.12"
+}
+
+repositories {
+    mavenCentral()
+
+    maven {
+        name = 'internal'
+        url = "$oasisRepository/internal"
+    }
+}
+
+dependencies {
+    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: servletVersion
+
+    compile group: 'com.kooniverse.oasis', name: 'OasisFramework', version: oasisFrameworkVersion
+
+    compile group: 'javax.servlet', name: 'jstl', version: jstlVersion
+
+    compile group: 'org.springframework', name: 'spring-webmvc', version: springFrameworkVersion
+    compile group: 'org.springframework', name: 'spring-context-support', version: springFrameworkVersion
+    compile group: 'org.springframework', name: 'spring-jdbc', version: springFrameworkVersion
+    compile group: 'org.springframework', name: 'spring-orm', version: springFrameworkVersion
+    compile group: 'org.springframework', name: 'spring-tx', version: springFrameworkVersion
+
+    compile group: 'org.thymeleaf', name: 'thymeleaf', version: thymeleafVersion
+    compile group: 'org.thymeleaf', name: 'thymeleaf-spring5', version: thymeleafVersion
+
+    compile group: 'org.apache.commons', name: 'commons-dbcp2', version: commonsDbcp2Version
+    compile group: 'commons-fileupload', name: 'commons-fileupload', version: commonsFileUpload
+
+    compile group: 'org.hibernate', name: 'hibernate-core', version: hibernateVersion
+
+    compile group: 'org.mybatis', name: 'mybatis', version: myBatisVersion
+    compile group: 'org.mybatis', name: 'mybatis-spring', version: myBatisSpringVersion
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+
+    testCompile group: 'junit', name: 'junit', version: junitVersion
+}

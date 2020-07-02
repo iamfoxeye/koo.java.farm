@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+    padding: 10px 10px 10px 10px;
+    font-size: 1.1em;
+}
+
+
+/* -------------------- [Header] -------------------- */
+.header {
+    clear: both;
+    padding: 10px 10px 10px 10px;
+
+    border: solid 1px lightgray;
+}
+.header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.header .toolMenu {
+    clear: both;
+    height: 30px;
+}
+
+.header .toolMenu ul {
+    float: right;
+}
+
+.header .toolMenu ul li {
+    float: left;
+    padding: 5px 2px 3px 2px;
+}
+
+.header .topMenu {
+    clear: both;
+    height: 80px;
+    line-height: 80px;
+}
+
+.header .topMenu ul {
+}
+
+.header .topMenu ul li {
+    float: left;
+    padding: 5px 5px 3px 10px;
+}
+/* -------------------- [Header] -------------------- */
+
+
+/* -------------------- [Footer] -------------------- */
+.footer {
+    clear: both;
+    padding: 10px 10px 10px 10px;
+
+    border: solid 1px lightgray;
+}
+/* -------------------- [Footer] -------------------- */
+
+
+
+
+/* -------------------- [Body] -------------------- */
+.bodyLeft {
+    border: solid 1px lightgray;
+}
+
+.bodyContents {
+    clear: both;
+    padding: 10px 10px 10px 10px;
+
+    border: solid 1px lightgray;
+}
+/* -------------------- [Body] -------------------- */
+

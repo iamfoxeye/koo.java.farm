@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:include="templates/main.html :: head(~{::title}, ~{::link}, ~{::style}, ~{::script})">
+    <title>UI: Templates</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/wcom/css/theme/cleanTable/cleanTable.css}">
+    <script type="text/javascript" th:src="@{/wcom/scripts/mobileAPI.js}"></script>
+</head>
+<body th:include="~{templates/main.html :: body(~{::#bodyContents})}">
+
+<!-- -------------------- [CONTENTS] -------------------- -->
+<div id="bodyContents">
+
+    <h1>Image View</h1>
+
+    <div>
+        <ul>
+            <li>Request Image Name: <span th:text="${imageName}"/></li>
+            <li>Request Image Path: <span th:text="${imagePath}"/></li>
+        </ul>
+    </div>
+
+    <div>
+        <img th:src="${imagePath} ? @{${imagePath}} : @{/wcom/images/noImage.jpg}" />
+    </div>
+
+
+</div>
+<!-- -------------------- [CONTENTS] -------------------- -->
+
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:include="templates/main.html :: head(~{::title}, ~{::link}, ~{::style}, ~{::script})">
+    <title>UI: Templates</title>
+</head>
+<body th:include="~{templates/main.html :: body(~{::#bodyContents})}">
+
+<!-- -------------------- [CONTENTS] -------------------- -->
+<div id="bodyContents">
+
+    <h1>Hello, MyBatis</h1>
+    <p>Current Date: <span th:text="${currentDate}" /></p>
+
+</div>
+<!-- -------------------- [CONTENTS] -------------------- -->
+
+</body>
+</html>
+

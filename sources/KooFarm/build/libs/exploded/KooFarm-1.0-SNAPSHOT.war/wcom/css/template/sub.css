@@ -1,0 +1,55 @@
+/*
+  Title: Stylesheet for Sub Template
+
+ */
+
+@charset "utf-8";
+
+
+
+
+/* -------------------- [Layout] -------------------- */
+#iFarm\.TEMPLATE_PAGE_WRAPPER {
+}
+
+#iFarm\.TEMPLATE_PAGE_HEADER {
+}
+
+#iFarm\.TEMPLATE_PAGE_BODY {
+    position: relative;
+}
+
+#iFarm\.TEMPLATE_PAGE_BODY:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#iFarm\.TEMPLATE_BODY_LEFT {
+    position: absolute;
+
+    width: 300px;
+    min-height: 300px;
+}
+
+#iFarm\.TEMPLATE_BODY_CONTENT {
+    margin-left: 300px;
+    min-height: 500px;
+}
+
+#iFarm\.TEMPLATE_PAGE_FOOTER {
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    #iFarm\.TEMPLATE_BODY_LEFT, #iFarm\.TEMPLATE_BODY_CONTENT {
+        width: 100%;
+    }
+}
+/* -------------------- [Layout] -------------------- */
+
+
+
+/* -------------------- [Contents] -------------------- */
+/* -------------------- [Contents] -------------------- */
+
